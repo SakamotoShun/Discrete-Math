@@ -359,63 +359,61 @@ $\therefore p\land\lnot p\equiv c$
    2. Is $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$? Justify your answer.
    3. Is $(p \oplus q) \land r \equiv (p \land r) \oplus (q \land r)$? Justify your answer.
 
-## <<<<<<< HEAD
-
 ## Exercise Answers
 
 ### Exercise-1.1.1-Answers
 
 1. Use Theorem 1.1.1 to verify the logical equivalence in the following questions. Supply a reason for each step.
    1. $(p \land \lnot q) \lor p \equiv p$
-      $$
-      \begin{align*}
-      Commutative\;Law&\equiv p \lor (p \land \lnot q) \\
-      Distributive\;Law &\equiv (p \lor p)\land (p\lor \lnot q)
-      \\ Idempotent\;Law &\equiv p \land (p\lor \lnot q)
-      \\ Absorption\;Law &\equiv p
-      \\ \therefore (p \land \lnot q) \lor p &\equiv p
-      \end{align*}
-      $$
+      > $$
+      >  \begin{align*}
+      >  Commutative\;Law&\equiv p \lor (p \land \lnot q) \\
+      >  Distributive\;Law &\equiv (p \lor p)\land (p\lor \lnot q)
+      >  \\ Idempotent\;Law &\equiv p \land (p\lor \lnot q)
+      >  \\ Absorption\;Law &\equiv p
+      >  \\ \therefore (p \land \lnot q) \lor p &\equiv p
+      >  \end{align*}
+      > $$
    2. $p \land (\lnot q \lor p ) \equiv p$
-      $$
-      \begin{align*}
-      Commutative\;Law&\equiv p \land (p \lor \lnot q)
-      \\Distributive\;Law&\equiv (p \land p) \lor (p \land \lnot q)
-      \\Idempotent\;Law&\equiv p \lor (p \land \lnot q)
-      \\ Absorption\;Law&\equiv p
-      \\ \therefore p \land (\lnot q \lor p ) &\equiv p
-      \end{align*}
-      $$
+      > $$
+      >  \begin{align*}
+      >  Commutative\;Law&\equiv p \land (p \lor \lnot q)
+      >  \\Distributive\;Law&\equiv (p \land p) \lor (p \land \lnot q)
+      >  \\Idempotent\;Law&\equiv p \lor (p \land \lnot q)
+      >  \\ Absorption\;Law&\equiv p
+      >  \\ \therefore p \land (\lnot q \lor p ) &\equiv p
+      >  \end{align*}
+      > $$
    3. $\lnot (p \lor \lnot q) \lor (\lnot p \land \lnot q) \equiv \lnot p$
-      $$
-      \begin{align*}
-      De\;Morgan's\;Law &\equiv (\lnot p \land \lnot(\lnot q)) \lor (\lnot p \land \lnot q)
-      \\Double\;Neative\;Law &\equiv (\lnot p \land q) \lor (\lnot p \land \lnot q)
-      \\Distributive\;Law&\equiv \lnot p \land (q \lor \lnot q)
-      \\Negation\;Law&\equiv \lnot p \land t
-      \\Identity\;Law&\equiv \lnot p
-      \\ \therefore \lnot (p \lor \lnot q) \lor (\lnot p \land \lnot q) &\equiv \lnot p
-      \end{align*}
-      $$
+      > $$
+      >  \begin{align*}
+      >  De\;Morgan's\;Law &\equiv (\lnot p \land \lnot(\lnot q)) \lor (\lnot p \land \lnot q)
+      >  \\Double\;Neative\;Law &\equiv (\lnot p \land q) \lor (\lnot p \land \lnot q)
+      >  \\Distributive\;Law&\equiv \lnot p \land (q \lor \lnot q)
+      >  \\Negation\;Law&\equiv \lnot p \land t
+      >  \\Identity\;Law&\equiv \lnot p
+      >  \\ \therefore \lnot (p \lor \lnot q) \lor (\lnot p \land \lnot q) &\equiv \lnot p
+      >  \end{align*}
+      > $$
    4. $\lnot ((\lnot p \land q) \lor (\lnot p \land \lnot q)) \lor (p \land q) \equiv p$
-      $$
-      \begin{align*}
-      Distributive\;Law&\equiv \lnot(\lnot p \land (q \lor \lnot q)) \lor (p \land q)
-      \\Negation\;law&\equiv \lnot(\lnot p \land t) \lor (p\land q)
-      \\Identity\;Law&\equiv \lnot(\lnot p) \lor (p \land q)
-      \\Double\;Negative\;Law&\equiv p \lor (p \land q)
-      \\Absorption\;Law&\equiv p
-      \\ \therefore \lnot ((\lnot p \land q) \lor (\lnot p \land \lnot q)) \lor (p \land q) &\equiv p
-      \end{align*}
-      $$
+      > $$
+      >  \begin{align*}
+      >  Distributive\;Law&\equiv \lnot(\lnot p \land (q \lor \lnot q)) \lor (p \land q)
+      >  \\Negation\;law&\equiv \lnot(\lnot p \land t) \lor (p\land q)
+      >  \\Identity\;Law&\equiv \lnot(\lnot p) \lor (p \land q)
+      >  \\Double\;Negative\;Law&\equiv p \lor (p \land q)
+      >  \\Absorption\;Law&\equiv p
+      >  \\ \therefore \lnot ((\lnot p \land q) \lor (\lnot p \land \lnot q)) \lor (p \land q) &\equiv p
+      >  \end{align*}
+      > $$
    5. $(p \land (\lnot (\lnot p \lor q))) \lor (p \land q) \equiv p$
-      $$
-      \begin{align*}
-      De\;Morgan's\;Law&\equiv (p\land \lnot(\lnot(\lnot p)\land\lnot q))) \lor (p \land q)
-      \\Double\;Negative\;Law&\equiv (p \land (\lnot p\land \lnot q)) \lor (p \land q)
-      \\Associative\;Law&\equiv ((p \land \lnot p ) \land \lnot q) \lor (p \land q)
-      \\Negation\;Law&\equiv (c \land \lnot q) \lor (p \land q)
-      \\Universal\;Bound\;Law&\equiv c \lor (p \land q)
-      \\????
-      \end{align*}
-      $$
+      > $$
+      >  \begin{align*}
+      >  De\;Morgan's\;Law&\equiv (p\land \lnot(\lnot(\lnot p)\land\lnot q))) \lor (p \land q)
+      >  \\Double\;Negative\;Law&\equiv (p \land (\lnot p\land \lnot q)) \lor (p \land q)
+      >  \\Associative\;Law&\equiv ((p \land \lnot p ) \land \lnot q) \lor (p \land q)
+      >  \\Negation\;Law&\equiv (c \land \lnot q) \lor (p \land q)
+      >  \\Universal\;Bound\;Law&\equiv c \lor (p \land q)
+      >  \\????
+      >  \end{align*}
+      > $$
