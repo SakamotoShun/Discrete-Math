@@ -359,6 +359,7 @@ $\therefore p\land\lnot p\equiv c$
    2. Is $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$? Justify your answer.
    3. Is $(p \oplus q) \land r \equiv (p \land r) \oplus (q \land r)$? Justify your answer.
 
+<<<<<<< HEAD
 ---
 
 ## Exercise Answers
@@ -419,3 +420,6 @@ $\therefore p\land\lnot p\equiv c$
       \\????
       \end{align*}
       $$
+=======
+[Answers](Chapter-1/Answers.md)
+>>>>>>> e06bf0d0c8e9dd8024b3ebb9e06edbd709a2db50
