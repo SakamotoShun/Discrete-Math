@@ -414,6 +414,5 @@ $\therefore p\land\lnot p\equiv c$
       >  \\Associative\;Law&\equiv ((p \land \lnot p ) \land \lnot q) \lor (p \land q)
       >  \\Negation\;Law&\equiv (c \land \lnot q) \lor (p \land q)
       >  \\Universal\;Bound\;Law&\equiv c \lor (p \land q)
-      >  \\????
-      >  \end{align*}
+      >  \\????\end{align*}
       > $$
