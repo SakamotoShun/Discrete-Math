@@ -227,7 +227,7 @@ Contradiction $c$
 
 ---
 
-#### Theorem Summary
+#### Theorem-1.1.1
 
 - Let propositions be $p,q,r$ and let tautology be $t$ and contradictions be $c$.
 
@@ -337,3 +337,23 @@ $\therefore p\land\lnot p\equiv c$
 11. Negation of $t$ and $c$:
     - $\lnot t \equiv c$
     - $\lnot c \equiv t$
+
+---
+
+## Exercise 1.1.1
+
+1. Use [Theorem 1.1.1](#theorem-1.1.1) to verify the logical equivalence in the following questions. Supply a reason for each step.
+
+   1. $(p \land \lnot q) \lor p \equiv p$
+   2. $p \land (\lnot q \lor p ) \equiv p$
+   3. $\lnot (p \lor \lnot q) \lor (\lnot p \land \lnot q) \equiv \lnot p$
+   4. $\lnot ((\lnot p \land q) \lor (\lnot p \land \lnot q)) \lor (p \land q) \equiv p$
+   5. $(p \land (\lnot (\lnot p \lor q))) \lor (p \land q) \equiv p$
+
+2. Since $p \oplus q \equiv (p \lor q) \land \lnot (p \land q)$.
+
+   1. Find simpler statement forms that are logically equivalent to $p \oplus p$ and $(p \oplus p ) \oplus p$.
+   2. Is $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$? Justify your answer.
+   3. Is $(p \oplus q) \land r \equiv (p \land r) \oplus (q \land r)$? Justify your answer.
+
+3.
