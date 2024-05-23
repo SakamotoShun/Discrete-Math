@@ -4,6 +4,8 @@ tags:
   - Book
 ---
 
+e
+
 # Logic
 
 - [Propositions](#propositions)
@@ -132,7 +134,7 @@ $\land$ (AND) $\lor$ (OR) $\oplus$ (XOR)
 
 ### Examples
 
-> 1.  Construct the truth table for the statement form $(p\lor q)\land(p\land q)$, also known as $p\oplus q$.
+> 1. Construct the truth table for the statement form $(p\lor q)\land(p\land q)$, also known as $p\oplus q$.
 
 | $p$ | $q$ | $p\lor q$ | $p\land q$ | $\lnot(p\land q)$ | $(p\lor q)\land \lnot(p\land q)$ |
 | --- | --- | --------- | ---------- | ----------------- | -------------------------------- |
@@ -141,7 +143,7 @@ $\land$ (AND) $\lor$ (OR) $\oplus$ (XOR)
 | F   | T   | T         | F          | T                 | T                                |
 | F   | F   | F         | F          | T                 | F                                |
 
-> 2.  Construct the truth table for $(p\land q) \lor \lnot r$.
+> 2. Construct the truth table for $(p\land q) \lor \lnot r$.
 
 | $p$ | $q$ | $r$ | $p\land q$ | $\lnot r$ | $(p\land q)\lor \lnot r$ |
 | --- | --- | --- | ---------- | --------- | ------------------------ |
@@ -174,9 +176,9 @@ Definition
 
 > Testing $P\equiv Q$
 >
-> > 1.  Construct truth table to P and Q
-> > 2.  Check each combination of truth value to see whether they are the same.
-> >     - If the truth value of both are the same in each combination, they are logically equivalent.
+> > 1. Construct truth table to P and Q
+> > 2. Check each combination of truth value to see whether they are the same.
+> >    - If the truth value of both are the same in each combination, they are logically equivalent.
 
 ### Showing Non-equivalence
 
@@ -356,4 +358,4 @@ $\therefore p\land\lnot p\equiv c$
    2. Is $(p \oplus q) \oplus r \equiv p \oplus (q \oplus r)$? Justify your answer.
    3. Is $(p \oplus q) \land r \equiv (p \land r) \oplus (q \land r)$? Justify your answer.
 
-3.
+[Answers](Chapter1/Answers.md)
